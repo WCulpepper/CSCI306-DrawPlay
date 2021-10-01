@@ -2,8 +2,9 @@ import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
 
+//This is Will's contribution to the "meaningful comments" for this assignment
 public class Cat {
-	// drawing constants are private - noone needs to know what we're doing
+	// drawing constants are private - no one needs to know what we're doing
 	// pick a head dimension
 	private static final int HEAD_DIMENSION = 100;
 	// eyes will be about 1/4 from top of head and 1/4 from left
@@ -27,7 +28,7 @@ public class Cat {
 		int x=catX;
 		int y=catY;
 		// Draw the head
-		g2.setColor(Color.black);
+		g2.setColor(Color.gray);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);
