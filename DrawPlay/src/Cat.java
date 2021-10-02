@@ -31,7 +31,7 @@ public class Cat {
 		g2.setColor(Color.BLACK);
 		g2.fillRect(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
-		g2.setColor(Color.MAGENTA);
+		g2.setColor(Color.GREEN);
 		x = catX + EYE_X; 
 		y = catY + EYE_Y;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
